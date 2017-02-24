@@ -100,4 +100,31 @@ class Cubetech_Simple_Yt_Videos_Public {
 
 	}
 
+	/**
+	 * Filter the content and add some div around the iframes
+	 *
+	 * @since 	1.0.0
+	 */
+	public function add_youtube_responsiveness( $content ) {
+
+		if( is_singular() && is_main_query() ) {
+
+		    // match any iframes
+		    $pattern = '~<iframe.*</iframe>|<embed.*</embed>~';
+		    preg_match_all($pattern, $content, $matches);
+
+		    foreach ($matches[0] as $match) {
+		        // wrap matched iframe with div
+		        $wrappedframe = '<div class="cubetech-simple-yt-videos">' . $match . '</div>';
+
+		        //replace original iframe with new in content
+		        $content = str_replace($match, $wrappedframe, $content);
+		    }
+
+		}	
+
+		return $content;
+
+	}
+
 }

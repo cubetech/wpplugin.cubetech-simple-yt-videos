@@ -1,12 +1,6 @@
 <?php
 
 /**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
  *
  * @link              https://www.cubetech.ch
  * @since             1.0.0
@@ -15,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       Simple Responsive Youtube Videos
  * Plugin URI:        https://github.com/cubetech/wpplugin.cubetech-simple-yt-videos
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This plugin filters the content and modify the Youtube videos to be responsive
  * Version:           1.0.0
  * Author:            cubetech GmbH
  * Author URI:        https://www.cubetech.ch
