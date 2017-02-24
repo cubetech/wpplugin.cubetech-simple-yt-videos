@@ -1,4 +1,4 @@
-=== Simple Responsive Youtube Videos ===
+=== Simple Responsive YouTube Videos ===
 Contributors: chrigu99, cubetech
 Donate link: https://www.cubetech.ch
 Tags: youtube, videos, responsive, embed, simple, cubetech
@@ -8,15 +8,15 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin filters the content and modify the Youtube videos to be responsive
+This plugin filters the content and modify the YouTube videos to be responsive
 
 == Description ==
 
-This plugin filters the content and modify the Youtube videos to be responsive
+This plugin filters the content and modify the YouTube videos to be responsive
 
 Features:
 
-*   Adds a wrapper div around Youtube iFrames (on all single views)
+*   Adds a wrapper div around YouTube iFrames (on all single views)
 *   With CSS the videos are made responsive
 *   Some little jQuery makes sure, the aspect ratio is considered properly
 

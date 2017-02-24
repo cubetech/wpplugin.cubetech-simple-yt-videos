@@ -2,7 +2,7 @@
 
 ## Description:
 
-This plugin filters the content and modify the Youtube videos to be responsive
+This plugin filters the content and modify the YouTube videos to be responsive
 
 ## Version: 1.0.0
 
@@ -21,4 +21,4 @@ Christoph S. Ackermann @acki
 ### 1.0.0 2017-02-24
 
 * Feature: First release
-* Feature: Filters the content and modify the Youtube videos to be responsive
+* Feature: Filters the content and modify the YouTube videos to be responsive
