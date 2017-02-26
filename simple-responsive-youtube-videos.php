@@ -10,7 +10,7 @@
  * Plugin Name:       Simple Responsive Youtube Videos
  * Plugin URI:        https://github.com/cubetech/wpplugin.cubetech-simple-yt-videos
  * Description:       This plugin filters the content and modify the Youtube videos to be responsive
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            cubetech GmbH
  * Author URI:        https://www.cubetech.ch
  * License:           GPL-2.0+
