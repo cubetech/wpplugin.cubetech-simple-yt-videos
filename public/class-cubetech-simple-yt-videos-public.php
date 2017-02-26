@@ -107,7 +107,7 @@ class Cubetech_Simple_Yt_Videos_Public {
 	 */
 	public function add_youtube_responsiveness( $content ) {
 
-		if( is_singular() && is_main_query() ) {
+		if( is_main_query() ) {
 
 		    // match any iframes
 		    $pattern = '~<iframe.*</iframe>|<embed.*</embed>~';
